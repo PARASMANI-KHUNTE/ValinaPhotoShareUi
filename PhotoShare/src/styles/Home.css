@@ -1,0 +1,12 @@
+.HomeSection{
+    visibility: hidden;
+    position: relative;   
+}
+.PostSection{
+    visibility: hidden;
+    position: relative;
+}
+.ProfileSection{
+    visibility: hidden;
+    position: relative;
+}

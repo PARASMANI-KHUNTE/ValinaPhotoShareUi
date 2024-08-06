@@ -1,0 +1,36 @@
+form{
+    width: 100%;
+    height: 70vh;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: start;
+    visibility: visible;
+}
+
+.endCred{
+    position: relative;
+    bottom: 0px;
+}
+
+#otpForm{
+    width: 100%;
+    height: 10rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    visibility:hidden;
+    position: absolute;
+    top: 200px;
+}
+
+#SignUPForm{
+    visibility:hidden;
+    position: absolute;
+    top: 120px;
+}
+
+
+

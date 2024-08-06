@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PhotShare-Login</title>
+    <link rel="stylesheet" href="../styles/LandingPage.css">
+    <link rel="stylesheet" href="../styles/login.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100">
+    
+    <nav id="nav" class="bg-white p-4">
+        <h1 id="logo" class=" text-bold">Photoshare</h1>
+        <ul id="navUl" >
+            <li id="navli"><a class="log" id="navA" href="">Login</a></li>
+            <li id="navli"><a class="bg-blue-500 text-white " id="navA" href="./GetInfo.html">Signup</a></li>
+        </ul>
+    </nav>
+
+    
+
+    <form action="" class="flex flex-col space-y-5 shadow-xl p-1" id="LoginForm" onsubmit="HandelLogin(event)">
+        <label for="Username">Username</label>
+        <p id="nameBox" class="text-red-400"></p>
+        <input type="text" id="Username" class="border p-2">
+        <label for="Password">Password</label>
+        <p id="passBox" class="text-red-400"></p>
+        <input type="password" id="pssin" class="border p-2">
+        <button type="button" onclick="ShowPassword()" id="passEye" class="hover:text-blue-500">see password</button>
+        <button type="submit" class="bg-blue-500 hover:bg-blue-600 text-white p-2">Signup</button>
+    </form>
+
+    
+
+    <footer class="endCred bg-white text-center">
+        <div class="States">
+            <h4>Powered by Paras</h4>
+            <p> &copy All Rigths Reserved  2024 </p>
+        </div>
+        
+        
+        <div class="footer">
+            <ul class="footerUl">
+                <li class="footerLi"><a class="footerA">LinkedIn</a></li>
+                <li class="footerLi"><a class="footerA">Youtube</a></li>
+                <li class="footerLi"><a class="footerA">X</a></li>
+                <li class="footerLi"><a class="footerA">Github</a></li>
+                <li class="footerLi"><a class="footerA">Website</a></li>
+            </ul>
+        </div>
+    </footer>
+
+
+    <script src="../scripts/Login.js"></script>
+</body>
+</html>
